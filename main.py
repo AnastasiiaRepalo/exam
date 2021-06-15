@@ -37,5 +37,8 @@ def find_longest_subsequence(string):
 
 
 if __name__ == '__main__':
+    print(find_longest_subsequence('trial'))
     print(find_longest_subsequence('AVVV'))
+    print(find_longest_subsequence('test'))
+    print(find_longest_subsequence('aa'))
 
