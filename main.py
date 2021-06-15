@@ -11,20 +11,19 @@ def find_longest_subsequence(string):
             subs_counter = 0
         else:
             if asii_numbr > ord(string[i+1]):
-                print('j')
+
                 subs_counter += 1
-                print('counter:', subs_counter)
+
                 len_of_longest_subs = max(len_of_longest_subs, subs_counter)
             else:
-                print('n')
+
                 subs_counter = 0
-        print(len_of_longest_subs)
-    return len_of_longest_subs
+    return len_of_longest_subs + 1
 
 
 
 
 
 if __name__ == '__main__':
-    print(find_longest_subsequence('trial'))
+    print(find_longest_subsequence('1t56ty6'))
 
